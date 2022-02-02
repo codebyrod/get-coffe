@@ -7,6 +7,8 @@
     list-style: none;
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
+    outline: none;
+    border: none;
 }
 
 .h-container{
@@ -46,9 +48,9 @@
 }
 
 .m-container-top{
-    background-color: coral;
+    /* background-color: coral; */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 55vw;
 }
@@ -56,7 +58,7 @@
 .m-box-right{
     width: 45vw;
     height: 30vw;
-    background-color: blue;
+    /* background-color: blue; */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -65,7 +67,7 @@
 }
 
 .m-box-title{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     font-size: calc(2.7vw - 5%);
 }
 
@@ -73,12 +75,81 @@
     display: block;
 }
 
-.m-form{
+.m-box-button{
+    /* background-color: chartreuse; */
+    width: 30vw;
+    height: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.m-button{
+    width: calc(22vw - 5%);
+    height: calc(4vw - 5%);
+    background-color: #FCA60F;
+    border-radius: calc(.5vw - 1%);
+    font-size: calc(2vw - 5%);
+    color: #FFFFFF;
+}
+
+.m-box-social-networking{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 8vw;
+}
+
+.m-form-right{
+    width: 40vw;
     position: absolute;
     z-index: -1;
+    left: -48%;
 }
 
 .m-box-left{
     width: 25vw;
-    background-color: brown;
+    height: 40vw;
+    /* background-color: brown; */
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.m-form-left{
+    width: 50vw;
+    /* background-color: chocolate; */
+    position: absolute;
+    z-index: -1;
+    top: -20%;
+    left: 23%;
+}
+
+.m-cup-coffee{
+    width: 70%;
+}
+
+.m-container-below{
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.m-box-scroll{
+    width: 12vw;
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-scroll-text{
+    font-size: calc(1.7vw - 10%);
+}
+
+.m-img-scroll{
+    width: 15%;
 }
